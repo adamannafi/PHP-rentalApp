@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul * {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.is-navOpen{
+  overflow: hidden;
+}
+
+a {
+    color: #0A4A3C;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+}
+
+nav.nav {z-index: 9999;
+    color: #fff;
+}
